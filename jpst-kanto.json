@@ -5,9 +5,14 @@
             "name": "東京言友会",
             "region_level1": "関東",
             "region_level2": "東京都",
+            "region_level3": ["東京23区","多摩地域"],
+             "affiliation": "全言連",
             "url": "https://tokyo-gennyukai.jimdofree.com/",
             "twitter": "https://x.com/tokyo_genyukai2",
-            "tags": ["成人", "定例会","吃音改善"]
+            "note": "1960年代より活動し、60周年を迎える。メディア協力等の実績あり。月二回の例会を巣鴨と東京障害会館（三田）にて行う。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
         },
         {
             "id": "org-002",
@@ -15,37 +20,93 @@
             "region_level1": "関東",
             "region_level2": "千葉県",
             "region_level3": ["千葉市", "松戸市"],
+             "affiliation": "全言連",
             "url": "https://chibag-y-k.jimdofree.com/",
             "twitter": "https://x.com/chibagenyuukai",
-            "tags": ["成人", "定例会"]
+            "tags": ["成人", "定例会"],
+            "status": "active",
+             "last_confirmed": "2026-04"
         },
         {
-            "id": "org-001",
+            "id": "org-003",
             "name": "よこはま言友会",
             "region_level1": "関東",
             "region_level2": "神奈川県",
+             "region_level3": ["川崎市", "横浜市"],
+             "affiliation": "全言連",
             "url": "https://yokohama-genyukai.wixsite.com/index",
             "twitter": "https://x.com/yokohama_gyk",
-            "tags": ["成人", "定例会"]
+            "note": "1994年に設立。親子きつおん交流会などのイベントを年一回開催。なお、よこはま言友会の旧ドメインを悪用し『横浜吃音治療院』なるWebサイトがあるが、これはよこはま言友会とは一切関係ないことに留意。",
+            "tags": ["成人", "親子","定例会"],
+            "status": "active",
+             "last_confirmed": "2026-04"
         },
         {
             "id": "org-004",
             "name": "茨城言友会",
             "region_level1": "関東",
             "region_level2": "茨城県",
+            "region_level3": ["つくば市","土浦市","水戸市"],
+             "affiliation": "全言連",
             "url": "https://ibarakigenyukai.org/",
             "twitter": "https://x.com/ibarakigenyukai",
-            "tags": ["成人", "定例会"]
+            "note": "2000年設立。つくば市や水戸市を拠点に活動するも、現在は役員の高齢化等にて2025年10月以降は事実上の休止状態。",
+            "tags": ["成人", "定例会"],
+            "status": "inactive",   
+             "last_confirmed": "2026-04"
         },
         {
             "id": "org-005",
-            "name": "筑波大学吃音会",
+            "name": "ツクスタ-筑波大学吃音会-",
             "region_level1": "関東",
             "region_level2": "茨城県",
-            "region_level3": "つくば市",
+            "region_level3": ["つくば市","土浦市","牛久市","守谷市"],
+            "affiliation": "独立",
             "url": "https://tsukubakitsuon.wordpress.com/",
             "twitter": "https://x.com/tsukubakitsuon",
-            "tags": ["成人", "定例会","学生","大学","若者"]
+             "note": "筑波大学の学生を中心とした吃音当事者会として、2021年に活動開始。月一回程度の定例会と吃音についての研究会（流暢性研究会）を行う。",
+            "tags": ["成人", "定例会","学生","大学","若者"],
+            "status": "active",
+             "last_confirmed": "2026-04"
+        },
+
+        {
+            "id": "org-006",
+            "name": "群馬言友会",
+            "region_level1": "関東",
+            "region_level2": "群馬県",
+             "affiliation": "全言連",
+              "region_level3": ["前橋市","高崎市"],
+               "url":null,
+             "twitter": "https://x.com/gunma_genyukai",
+             "note": "2025年に前任者より復活の上で新スタッフの元で立ち上げ",
+             "status": "active",   
+             "last_confirmed": "2026-04"
+        },
+        {
+            "id": "org-007",
+            "name": "とちぎ「ことばの友」会",
+            "region_level1": "関東",
+            "region_level2": "栃木県",
+             "region_level3": ["小山市","宇都宮市"],
+             "affiliation": "独立",
+             "url":null,
+             "twitter": null,
+            "note": "旧栃木言友会、現在はとちぎ「ことばの友」会として活動中",
+            "status": "active",   
+             "last_confirmed": "2026-04"
+        },
+        {
+             "id": "org-008",
+             "name": "埼玉言友会",
+              "region_level1": "関東",
+            "region_level2": "埼玉県",
+            "affiliation": "休止",
+            "url":null,
+            "twitter":null,
+             "note": "2021年よりコロナ禍によってマンパワー不足で活動休止中、事実上休止状態",
+             "status": "unknown",   
+             "last_confirmed": "2026-04"
         }
     ]
 }
