@@ -1,0 +1,51 @@
+{
+    "organizations": [
+        {
+            "id": "org-001",
+            "name": "東京言友会",
+            "region_level1": "関東",
+            "region_level2": "東京都",
+            "url": "https://tokyo-gennyukai.jimdofree.com/",
+            "twitter": "https://x.com/tokyo_genyukai2",
+            "tags": ["成人", "定例会","吃音改善"]
+        },
+        {
+            "id": "org-002",
+            "name": "千葉言友会",
+            "region_level1": "関東",
+            "region_level2": "千葉県",
+            "region_level3": ["千葉市", "松戸市"],
+            "url": "https://chibag-y-k.jimdofree.com/",
+            "twitter": "https://x.com/chibagenyuukai",
+            "tags": ["成人", "定例会"]
+        },
+        {
+            "id": "org-001",
+            "name": "よこはま言友会",
+            "region_level1": "関東",
+            "region_level2": "神奈川県",
+            "url": "https://yokohama-genyukai.wixsite.com/index",
+            "twitter": "https://x.com/yokohama_gyk",
+            "tags": ["成人", "定例会"]
+        },
+        {
+            "id": "org-004",
+            "name": "茨城言友会",
+            "region_level1": "関東",
+            "region_level2": "茨城県",
+            "url": "https://ibarakigenyukai.org/",
+            "twitter": "https://x.com/ibarakigenyukai",
+            "tags": ["成人", "定例会"]
+        },
+        {
+            "id": "org-005",
+            "name": "筑波大学吃音会",
+            "region_level1": "関東",
+            "region_level2": "茨城県",
+            "region_level3": "つくば市",
+            "url": "https://tsukubakitsuon.wordpress.com/",
+            "twitter": "https://x.com/tsukubakitsuon",
+            "tags": ["成人", "定例会","学生","大学","若者"]
+        }
+    ]
+}
