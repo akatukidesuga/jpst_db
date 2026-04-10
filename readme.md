@@ -8,18 +8,18 @@
 - 最終確認日を記録
 
 ### データ例
->            "id": "org-tyo-001",
->            "name": "東京言友会",
->            "region_level1": "関東",
->            "region_level2": "東京都",
->            "region_level3": ["東京23区","多摩地域"],
->             "affiliation": "全言連",
->            "url": "https://tokyo-gennyukai.jimdofree.com/",
->            "twitter": "https://x.com/tokyo_genyukai2",
->            "note": "1960年代より活動し、60周年を迎える。メディア協力等の実績あり。月二回の例会を巣鴨と東京障害会館（三田）にて行う。",
->            "tags": ["成人", "定例会","吃音改善"],
->            "status": "active", 
->             "last_confirmed": "2026-04"
+> 一例を紹介します
+"id": "org-tyo-001",
+"name": "東京言友会",
+"region_level1": "関東",
+"region_level2": "東京都",
+"region_level3": ["東京23区","多摩地域"],"affiliation": "全言連",
+"url": "https://tokyo-gennyukai.jimdofree.com/",
+"twitter": "https://x.com/tokyo_genyukai2",
+"note": "1960年代より活動し、60周年を迎える。メディア協力等の実績あり。月二回の例会を巣鴨と東京障害会館（三田）にて行う。",
+"tags": ["成人", "定例会","吃音改善"],
+"status": "active", 
+"last_confirmed": "2026-04"
 
 ### できること
 - 地域別の団体検索
