@@ -1,0 +1,60 @@
+{
+    "organizations": [
+        {
+            "id": "org-mya-001",
+            "name": "宮城言友会",
+            "region_level1": "東北",
+            "region_level2": "宮城県",
+            "region_level3": ["仙台市","塩釜市","登米市","名取市","角田市"],
+             "affiliation": "全言連",
+            "url": "https://miyagi-genyuukai.jimdo.com/",
+            "twitter": "https://x.com/genyuumiyagi",
+            "note": "宮城県で活動する吃音者のセルフヘルプグループ。1992年に発足。月一回、仙台市内（パルシティ仙台）などにて交流会を開催するほか、芋煮会などのイベントも行う",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        },
+                {
+            "id": "org-ygta-001",
+            "name": "山形言友会",
+            "region_level1": "東北",
+            "region_level2": "山形県",
+            "region_level3": ["山形市","米沢市","酒田市","上山市","村山市","長井市"],
+             "affiliation": "全言連",
+            "url": "https://yamagatagenyuukai.wixsite.com/home",
+            "twitter": "https://x.com/genyuukai_ymgt",
+            "note": "宮城言友会の支援を受けて2023年に発足した吃音者のセルフヘルプグループ。山形県内各所（霞城セントラルなど）にて交流会を開催",
+            "tags": ["成人", "定例会"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        },
+        {
+            "id": "org-iwa-001",
+            "name": "岩手言友会",
+            "region_level1": "東北",
+            "region_level2": "岩手県",
+            "region_level3": ["盛岡市","滝沢市","北上市","花巻市","二戸市","遠野市"],
+             "affiliation": "全言連",
+            "url": "null",
+            "twitter": "https://x.com/Iwate_Genyuukai",
+            "note": "宮城言友会の支援を受けて2024年に発足した吃音者のセルフヘルプグループ。盛岡市内（岩手県民交流センター）にて交流会を開催",
+            "tags": ["成人", "定例会"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        },
+         {
+            "id": "org-ngt-001",
+            "name": "にいがた言友会",
+            "region_level1": "東北",
+            "region_level2": "新潟県",
+            "region_level3": ["新潟市","長岡市","柏崎市","見附市","加茂市","十日町市"],
+             "affiliation": "全言連",
+            "url": "https://niigata-gyk.wixsite.com/index",
+            "twitter": "https://x.com/Iwate_Genyuukai",
+            "note": "1997年に発足した吃音者のセルフヘルプグループ、2002年に新潟言友会からにいがた言友会に改称。月一回の上越市レインボーセンター（上越市中央）などにて例会を開催",
+            "tags": ["成人", "定例会"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        }
+    ]
+}
