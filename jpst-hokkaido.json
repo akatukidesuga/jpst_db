@@ -1,0 +1,18 @@
+{
+    "organizations": [
+        {
+            "id": "org-hok-001",
+            "name": "北海道言友会",
+            "region_level1": "北海道",
+            "region_level2": "北海道",
+            "region_level3": ["札幌市","小樽市","旭川市","帯広市","北見市"],
+             "affiliation": "全言連",
+            "url": "https://ameblo.jp/hkgenyu1976/",
+            "twitter": "https://x.com/do_genyukai",
+            "note": "北海道で活動する吃音者のセルフヘルプグループ。1976年9月発足。札幌（札幌エルプラザ）をはじめ、道内各地（旭川・帯広など）でカフェ会と吃音勉強会を開催",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        }
+    ]
+}
