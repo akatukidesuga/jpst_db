@@ -14,6 +14,22 @@
             "status": "active", 
              "last_confirmed": "2026-04"
         },
+
+        {
+ "id": "org-tyo-002",
+            "name": "うぃーすた関東",
+            "region_level1": "関東",
+            "region_level2": "東京都",
+            "region_level3": ["東京23区","多摩地域","横浜市","川崎市","千葉市","松戸市"],
+             "affiliation": "うぃーすたPJT",
+            "url": "https://we-are-stutt.jimdofree.com/%E5%90%84%E5%9C%B0%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%81%AE%E6%B4%BB%E5%8B%95/%E3%81%86%E3%81%83%E3%83%BC%E3%81%99%E3%81%9F%E9%96%A2%E6%9D%B1/",
+            "twitter": "https://x.com/westu_kanto2",
+            "note":"うぃーすたプロジェクトの関東ブロックの会として2016年発足。吃音者同士の交流を通して吃音への理解、共感を得られる場を目指している。",
+            "tags": ["成人", "定例会","若者"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        },
+
         {
             "id": "org-cba-001",
             "name": "千葉言友会",
