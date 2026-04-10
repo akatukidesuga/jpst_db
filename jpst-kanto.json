@@ -1,7 +1,7 @@
 {
     "organizations": [
         {
-            "id": "org-001",
+            "id": "org-tyo-001",
             "name": "東京言友会",
             "region_level1": "関東",
             "region_level2": "東京都",
@@ -15,7 +15,7 @@
              "last_confirmed": "2026-04"
         },
         {
-            "id": "org-002",
+            "id": "org-cba-001",
             "name": "千葉言友会",
             "region_level1": "関東",
             "region_level2": "千葉県",
@@ -28,7 +28,7 @@
              "last_confirmed": "2026-04"
         },
         {
-            "id": "org-003",
+            "id": "org-kng-001",
             "name": "よこはま言友会",
             "region_level1": "関東",
             "region_level2": "神奈川県",
@@ -42,7 +42,7 @@
              "last_confirmed": "2026-04"
         },
         {
-            "id": "org-004",
+            "id": "org-ibr-001",
             "name": "茨城言友会",
             "region_level1": "関東",
             "region_level2": "茨城県",
@@ -56,7 +56,7 @@
              "last_confirmed": "2026-04"
         },
         {
-            "id": "org-005",
+            "id": "org-ibr-002",
             "name": "ツクスタ-筑波大学吃音会-",
             "region_level1": "関東",
             "region_level2": "茨城県",
@@ -71,7 +71,7 @@
         },
 
         {
-            "id": "org-006",
+            "id": "org-gun-001",
             "name": "群馬言友会",
             "region_level1": "関東",
             "region_level2": "群馬県",
@@ -84,7 +84,7 @@
              "last_confirmed": "2026-04"
         },
         {
-            "id": "org-007",
+            "id": "org-tci-001",
             "name": "とちぎ「ことばの友」会",
             "region_level1": "関東",
             "region_level2": "栃木県",
@@ -97,14 +97,14 @@
              "last_confirmed": "2026-04"
         },
         {
-             "id": "org-008",
+             "id": "org-sai-001",
              "name": "埼玉言友会",
               "region_level1": "関東",
             "region_level2": "埼玉県",
             "affiliation": "休止",
             "url":null,
             "twitter":null,
-             "note": "2021年よりコロナ禍によってマンパワー不足で活動休止中、事実上休止状態",
+             "note": "2021年よりコロナ禍によってマンパワー不足で活動休止中、事実上解散状態",
              "status": "unknown",   
              "last_confirmed": "2026-04"
         }
