@@ -10,7 +10,7 @@
             "url": "https://nagoya-gyk.jimdofree.com/",
             "twitter": "https://x.com/nagoyagyk",
             "note": "1969年代より活動している言友会所属団体。メディア協力等の実績あり。年一回、20代までを対象とする吃音ワークショップforユース (吃ユース)を開催している。また、Twitter（X）のスペース機能を生かしたオンライン配信も行っている。",
-            "tags": ["成人", "定例会","若者"],
+            "tags": ["成人", "定例会","若者","吃音改善"],
             "status": "active", 
              "last_confirmed": "2026-04"
         },
@@ -44,6 +44,21 @@
              "last_confirmed": "2026-04"
         },
 
+                   {
+            "id": "org-aich-004",
+            "name": "うぃーすた東海",
+            "region_level1": "中部",
+            "region_level2": "愛知県",
+            "region_level3": ["名古屋市","豊橋市","岡崎市","豊田市"],
+             "affiliation": "うぃーすたPJT",
+            "url": null,
+            "twitter": "https://x.com/westu_tokai",
+            "note": "2014年にうぃーすた東海として設立された10代〜30代の吃音のある若者を対象としたサークル、主に名古屋市内でカフェ会などを開催。",
+            "tags": ["成人", "若者","定例会"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        },
+
         {
      "id": "org-mie-001",
             "name": "三重言友会",
@@ -66,7 +81,7 @@
             "region_level3": ["岐阜市"],
              "affiliation": "全言連",
             "url": "https://gifugenyukai.jimdofree.com/",
-            "twitter": "null",
+            "twitter": null,
             "note": "1974年より活動している言友会所属団体。毎月第二日曜日に岐阜市南部コミュニティーセンターにて例会を開催。",
             "tags": ["成人", "定例会","吃音改善"],
             "status": "active", 
