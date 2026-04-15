@@ -3,7 +3,7 @@
         {
             "id": "org-aich-001",
             "name": "名古屋言友会",
-            "region_level1": "東海",
+            "region_level1": "中部",
             "region_level2": "愛知県",
             "region_level3": ["名古屋市"],
              "affiliation": "全言連",
@@ -17,7 +17,7 @@
       {
             "id": "org-aich-002",
             "name": "どーもわーく",
-            "region_level1": "東海",
+            "region_level1": "中部",
             "region_level2": "愛知県",
             "region_level3": ["名古屋市"],
              "affiliation": "独立",
@@ -32,7 +32,7 @@
               {
             "id": "org-aich-003",
             "name": "吃音・どもりメモ 豊橋言友会",
-            "region_level1": "東海",
+            "region_level1": "中部",
             "region_level2": "愛知県",
             "region_level3": ["豊橋市"],
              "affiliation": "全言連",
@@ -47,7 +47,7 @@
         {
      "id": "org-mie-001",
             "name": "三重言友会",
-            "region_level1": "東海",
+            "region_level1": "中部",
             "region_level2": "三重県",
             "region_level3": ["津市","四日市市"],
              "affiliation": "全言連",
@@ -61,7 +61,7 @@
           {
             "id": "org-gif-001",
             "name": "岐阜言友会",
-            "region_level1": "東海",
+            "region_level1": "中部",
             "region_level2": "岐阜県",
             "region_level3": ["岐阜市"],
              "affiliation": "全言連",
@@ -72,11 +72,24 @@
             "status": "active", 
              "last_confirmed": "2026-04"
         },
-
+   {
+            "id": "org-isk-001",
+            "name": "石川言友会",
+            "region_level1": "中部",
+            "region_level2": "石川県",
+            "region_level3": ["金沢市","七尾市","小松市","輪島市","羽咋市","志賀町"],
+             "affiliation": "全言連",
+            "url": "https://ishikawagyk.wixsite.com/my-site-4",
+            "twitter": "https://x.com/IshikawaGYK",
+            "note": "月一回、金沢市の松ヶ枝福祉館、石川県社会福祉会館、金沢勤労者プラザ、Zoomなどにて例会を開催",
+            "tags": ["成人", "定例会"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        },
       {
             "id": "org-ngt-001",
             "name": "にいがた言友会",
-            "region_level1": "東北",
+            "region_level1": "中部",
             "region_level2": "新潟県",
             "region_level3": ["新潟市","長岡市","柏崎市","見附市","加茂市","十日町市"],
              "affiliation": "全言連",
