@@ -71,6 +71,21 @@
             "tags": ["成人", "定例会","吃音改善"],
             "status": "active", 
              "last_confirmed": "2026-04"
+        },
+
+      {
+            "id": "org-ngt-001",
+            "name": "にいがた言友会",
+            "region_level1": "東北",
+            "region_level2": "新潟県",
+            "region_level3": ["新潟市","長岡市","柏崎市","見附市","加茂市","十日町市"],
+             "affiliation": "全言連",
+            "url": "https://niigata-gyk.wixsite.com/index",
+            "twitter": "https://x.com/niigatagenyukai",
+            "note": "1997年に発足した吃音者のセルフヘルプグループ、2002年に新潟言友会からにいがた言友会に改称。月一回の上越市レインボーセンター（上越市中央）などにて例会を開催",
+            "tags": ["成人", "定例会"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
         }
     ]
 }
