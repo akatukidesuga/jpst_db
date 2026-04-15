@@ -20,7 +20,7 @@
             "region_level1": "東北",
             "region_level2": "宮城県",
             "region_level3": ["仙台市","塩釜市","登米市","名取市","角田市"],
-             "affiliation": "全言連",
+             "affiliation": "うぃーすたPJT",
             "url": "null",
             "twitter": "https://x.com/westu_tohoku",
             "note": "宮城県を中心に東北エリアで活動する10～30代の吃音者のセルフヘルプグループ。2017年4月にうぃーすた東北として発足",
@@ -55,7 +55,20 @@
             "tags": ["成人", "定例会"],
             "status": "active", 
              "last_confirmed": "2026-04"
+        },
+   {
+            "id": "org-fsm-001",
+            "name": "ふくしま吃音懇話会",
+            "region_level1": "東北",
+            "region_level2": "福島県",
+            "region_level3": ["福島市","郡山市","いわき市","会津若松市"],
+             "affiliation": "独立",
+            "url": "https://www.fukushima-kitsuon.com/",
+            "twitter": "https://x.com/fukushimakitsu1",
+            "note": "福島県の吃音に関心のある全ての方々の「つながり」をつくるため、専門家や吃音のある当事者、保護者があつまり2017年に発足した吃音のサポートグループ。不定期で行う当事者向けの交流会のほか、専門職の方の知識・技術向上を目的とした研修会の開催、吃音の啓発を目的とした講演も行う。",
+            "tags": ["成人", "定例会","親子"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
         }
-
     ]
 }
