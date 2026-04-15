@@ -66,7 +66,7 @@
              "affiliation": "全言連",
             "url": "https://ibarakigenyukai.org/",
             "twitter": "https://x.com/ibarakigenyukai",
-            "note": "2000年設立。つくば市や水戸市を拠点に活動するも、現在は役員の高齢化等にて2025年10月以降は事実上の休止状態。",
+            "note": "2000年設立。つくば市や水戸市を拠点に活動するも、現在は役員の高齢化等にて2025年10月以降は事実上の休止状態。再開予定は未定。",
             "tags": ["成人", "定例会"],
             "status": "inactive",   
              "last_confirmed": "2026-04"
@@ -131,11 +131,12 @@
              "name": "埼玉言友会",
               "region_level1": "関東",
             "region_level2": "埼玉県",
+              "region_level3": ["さいたま市","川口市","越谷市","所沢市"],
             "affiliation": "全言連",
-            "url":null,
-            "twitter":null,
-             "note": "2021年よりコロナ禍によってマンパワー不足で活動休止中、事実上解散状態",
-             "status": "unknown",   
+            "url": "https://saitama-genyukai.jimdofree.com/",
+            "twitter": "https://x.com/saitamagenyukai",
+             "note": "2021年よりコロナ禍によってマンパワー不足で活動休止状態だったが、2025年9月より再開",
+              "status": "active",   
              "last_confirmed": "2026-04"
         }
     ]

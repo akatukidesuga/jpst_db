@@ -1,0 +1,76 @@
+{
+    "organizations": [
+        {
+            "id": "org-aich-001",
+            "name": "名古屋言友会",
+            "region_level1": "東海",
+            "region_level2": "愛知県",
+            "region_level3": ["名古屋市"],
+             "affiliation": "全言連",
+            "url": "https://nagoya-gyk.jimdofree.com/",
+            "twitter": "https://x.com/nagoyagyk",
+            "note": "1969年代より活動している言友会所属団体。メディア協力等の実績あり。年一回、20代までを対象とする吃音ワークショップforユース (吃ユース)を開催している。また、Twitter（X）のスペース機能を生かしたオンライン配信も行っている。",
+            "tags": ["成人", "定例会","若者"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        },
+      {
+            "id": "org-aich-002",
+            "name": "どーもわーく",
+            "region_level1": "東海",
+            "region_level2": "愛知県",
+            "region_level3": ["名古屋市"],
+             "affiliation": "独立",
+            "url": "https://www.domo-work.com/",
+            "twitter": "https://x.com/domo_work",
+            "note": "吃音のある方の就労支援を行なうNPO法人。就労で悩む吃音者に対する個別支援、イベント開催、情報発信などを通して、吃音のある方のQOL(生活の質)の向上を目指している。",
+            "tags": ["成人", "若者","就職支援"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        },
+
+              {
+            "id": "org-aich-003",
+            "name": "吃音・どもりメモ 豊橋言友会",
+            "region_level1": "東海",
+            "region_level2": "愛知県",
+            "region_level3": ["豊橋市"],
+             "affiliation": "全言連",
+            "url": "https://toyohashi-genyukai2.jimdofree.com/",
+            "twitter": "https://x.com/toyogenyukai",
+            "note": "毎月第三日曜日にアイトピア豊橋にて例会を開催。申し込みはWebサイトよりLINEオープンチャットへ連絡。",
+            "tags": ["成人", "若者","親子","定例会"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        },
+
+        {
+     "id": "org-mie-001",
+            "name": "三重言友会",
+            "region_level1": "東海",
+            "region_level2": "三重県",
+            "region_level3": ["津市","四日市市"],
+             "affiliation": "全言連",
+            "url": "https://miegenyukai.jimdofree.com/",
+            "twitter": "https://x.com/miegenyukai",
+            "note": "1987年より活動している言友会所属団体。第三日曜日午後に四日市市内で例会を行うほか、第一日曜日にはGoogleMeet利用のオンライン例会を行う",
+            "tags": ["成人", "定例会", "オンライン例会"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        },
+          {
+            "id": "org-gif-001",
+            "name": "岐阜言友会",
+            "region_level1": "東海",
+            "region_level2": "岐阜県",
+            "region_level3": ["岐阜市"],
+             "affiliation": "全言連",
+            "url": "https://gifugenyukai.jimdofree.com/",
+            "twitter": "null",
+            "note": "1974年より活動している言友会所属団体。毎月第二日曜日に岐阜市南部コミュニティーセンターにて例会を開催。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-04"
+        }
+    ]
+}
