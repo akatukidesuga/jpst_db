@@ -86,6 +86,20 @@
              "last_confirmed": "2026-04"
         },
 
+                {
+            "id": "org-ibr-003",
+            "name": "ゆうゆうゆう会",
+            "region_level1": "関東",
+            "region_level2": "茨城県",
+            "region_level3": ["つくば市","土浦市","牛久市","守谷市"],
+            "affiliation": "独立",
+            "url": "https://miyamoto-lab.net/category/uuukai/",
+            "twitter": "https://x.com/UUUkai_tsukuba",
+             "note": "ゆうゆうゆう会は、吃音のある幼児から高校生までの子供に寄り添い支援する会。",
+            "tags": ["親子", "定例会","子供"],
+            "status": "active",
+             "last_confirmed": "2026-04"
+        },
         {
             "id": "org-gun-001",
             "name": "群馬言友会",
