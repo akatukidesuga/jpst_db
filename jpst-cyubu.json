@@ -59,6 +59,20 @@
              "last_confirmed": "2026-04"
         },
 
+                {
+     "id": "org-siz-001",
+            "name": "しずおか言友会",
+            "region_level1": "中部",
+            "region_level2": "静岡県",
+            "region_level3": ["静岡市","浜松市"],
+             "affiliation": "全言連",
+            "url": "https://shizuokagenyukai.jimdofree.com/",
+            "twitter": "https://x.com/shizuokagyk",
+            "note": "1975年に誕生。吃音がある人・その関係者達のセルフヘルプグループ。静岡市内アイセル21(静岡市葵生涯学習センター・女性会館)と浜松市内アイミティ浜松（浜松市立勤労青少年ホーム）で例会を開催。",
+            "tags": ["成人", "定例会", "オンライン例会"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        },
         {
      "id": "org-mie-001",
             "name": "三重言友会",
@@ -101,6 +115,20 @@
             "status": "active", 
              "last_confirmed": "2026-04"
         },
+          {
+            "id": "org-fuk-001",
+            "name": "福井言友会",
+            "region_level1": "中部",
+            "region_level2": "福井県",
+            "region_level3": ["福井市","敦賀市","小浜市","大野市","勝山市","鯖江市"],
+             "affiliation": "全言連",
+            "url": "https://fukui-genyukai.jimdofree.com/",
+            "twitter": "https://x.com/fukui_genyukai",
+            "note": "2004年発足、不定期に福井県社会福祉センターを中心に例会を開催、2024年より活動休止状態",
+            "tags": ["成人", "定例会"],
+            "status": "inactive", 
+             "last_confirmed": "2026-09"
+        },
       {
             "id": "org-ngt-001",
             "name": "にいがた言友会",
@@ -114,6 +142,36 @@
             "tags": ["成人", "定例会"],
             "status": "active", 
              "last_confirmed": "2026-04"
+        },
+
+             {
+            "id": "org-ngn-001",
+            "name": "信州言友会",
+            "region_level1": "中部",
+            "region_level2": "長野県",
+            "region_level3": ["長野市","松本市","上田市","諏訪市","飯田市"],
+             "affiliation": "全言連",
+            "url": "https://www.lcv.ne.jp/~fujis08/",
+            "twitter": "",
+            "note": "松本（第二日曜 13時～ なんなんひろば（松本市図書館内））・長野（第四日曜 13時～ 東御市中央公民館）で例会を開催している他、7月第二週の土日に温泉例会を開催しており、各言友会からの参加者も多い。Webサイト引用『吃音という共通な悩みや問題を持っている人々が仲間達と出会い 気持ちや情報など分かち合うことで、悩みを一人で抱えてる状態から解放され、自主性、自立性を尊重し合い支え合うセルフグループ（当事者の会）です。』",
+            "tags": ["成人", "定例会","レクリエーション"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        },
+
+           {
+            "id": "org-yms-001",
+            "name": "やまなし言友会",
+            "region_level1": "中部",
+            "region_level2": "山梨県",
+            "region_level3": ["甲府市","龍王市","南アルプス市","富士吉田市","山梨市"],
+             "affiliation": "全言連",
+            "url": "https://yamanashi-kotoba.jimdofree.com/",
+            "twitter": "",
+            "note": "2019年4月に発足した吃音者のセルフヘルプグループ、2023年頃より活動停止状態",
+            "tags": ["成人", "定例会"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
         }
     ]
 }

@@ -1,0 +1,92 @@
+{
+    "organizations": [
+        {
+            "id": "org-osk-001",
+            "name": "おおさか結 言友会",
+            "region_level1": "関西",
+            "region_level2": "大阪府",
+            "region_level3": ["大阪市","堺市","吹田市"],
+             "affiliation": "全言連",
+            "url": "https://osakagenyukai.wixsite.com/osaka-genyukai",
+            "twitter": "https://x.com/osaka_genyukai",
+            "note": "吃音を持つ人のためのセルフヘルプグループとして2015年9月20日に約20年ぶりに正式に『復活』、定期例会、不定期で吃音講座を大阪市近隣で隔月で開催。会員同士の交流を深めるイベントも企画している。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        },
+
+                {
+            "id": "org-osk-002",
+            "name": "うぃーすた関西",
+            "region_level1": "関西",
+            "region_level2": "大阪府",
+            "region_level3": ["大阪市","堺市","吹田市","京都市","神戸市"],
+             "affiliation": "うぃーすた",
+            "url": "https://we-are-stutt.jimdofree.com/%E5%90%84%E5%9C%B0%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%81%AE%E6%B4%BB%E5%8B%95/%E3%81%86%E3%81%83%E3%83%BC%E3%81%99%E3%81%9F%E9%96%A2%E8%A5%BF/",
+            "twitter": "https://x.com/westu_kansai",
+            "note": "吃音を持つ若者のためのセルフヘルプグループとして、会員同士の交流を深めるイベントも企画している。",
+            "tags": ["成人", "定例会","吃音改善","若者"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        },
+                {
+            "id": "org-kyo-001",
+            "name": "京都言友会",
+            "region_level1": "関西",
+            "region_level2": "京都府",
+            "region_level3": ["京都市"],
+             "affiliation": "全言連",
+            "url": "https://osakagenyukai.wixsite.com/osaka-genyukai",
+            "twitter": "https://x.com/osaka_genyukai",
+            "note": "1967年（昭和42年）4月2日に京都言友会が正式に発足した組織。月一回 京都市聴覚言語障害センター（中京区西ノ京東中合町）にて例会を開催",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        },
+
+                {
+            "id": "org-kyo-002",
+            "name": "すたっと京都",
+            "region_level1": "関西",
+            "region_level2": "京都府",
+            "region_level3": ["京都市"],
+             "affiliation": "全言連",
+            "url": "https://kotobato.seesaa.net/",
+            "twitter": "",
+            "note": "2006年11月に発足、毎月一回ひと・まち交流館 京都（下京区西木屋町通上ノ口上る梅湊町）にて例会を開催。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        },
+
+     {
+            "id": "org-hyo-001",
+            "name": "神戸言友会",
+            "region_level1": "関西",
+            "region_level2": "兵庫県",
+            "region_level3": ["神戸市"],
+             "affiliation": "全言連",
+            "url": "https://kobe-gyk.jimdofree.com/",
+            "twitter": "https://x.com/kobe_gyk",
+            "note": "神戸言友会は、1994年以来 活動を「休止」していたが、2024年より新体制で再開。吃音のある人（本人）だけでなく、吃音のある人のご家族や、言語聴覚士など支援者が集い、共に歩んでいくことを目指す会として活動。神戸市生涯学習支援センター（コミスタこうべ：中央区吾妻通）にて例会を開催",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        },
+        
+        {
+            "id": "org-wky-002",
+            "name": "わかやま言友会",
+            "region_level1": "関西",
+            "region_level2": "和歌山県",
+            "region_level3": ["和歌山市","田辺市","新宮市"],
+             "affiliation": "全言連",
+            "url": "https://wakayamagenyukai0.wixsite.com/wakayama-gk",
+            "twitter": "https://x.com/wakayama_gk",
+            "note": "吃音(どもること)があっても自分らしく、豊かに生きるために、和歌山で吃音を語り合える場として2ヶ月に1回の例会を開催。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        }
+    ]
+}

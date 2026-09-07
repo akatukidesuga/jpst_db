@@ -69,6 +69,21 @@
             "tags": ["成人", "定例会","親子"],
             "status": "active", 
              "last_confirmed": "2026-04"
+        },
+
+           {
+            "id": "org-fsm-002",
+            "name": "福島言友会",
+            "region_level1": "東北",
+            "region_level2": "福島県",
+            "region_level3": ["福島市","郡山市","いわき市","会津若松市"],
+             "affiliation": "言友会",
+            "url": "",
+            "twitter": "https://x.com/fksm_genyuukai",
+            "note": "2026年8月発足、26年10月より定例会開始。紹介文『2026年8月30日に発足した福島言友（げんゆう）会です！吃音（きつおん）のある人たちが主体となって活動するセルフヘルプグループ（自助グループ）のことです 』",
+            "tags": ["成人", "定例会","親子"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
         }
     ]
 }
