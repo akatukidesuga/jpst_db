@@ -9,10 +9,10 @@
              "affiliation": "全言連",
             "url": "https://tokyo-gennyukai.jimdofree.com/",
             "twitter": "https://x.com/tokyo_genyukai2",
-            "note": "1960年代より活動し、60周年を迎える。メディア協力等の実績あり。月二回の例会を巣鴨と東京障害会館（三田）にて行う。",
-            "tags": ["成人", "定例会","吃音改善"],
+            "note": "1966年より活動し、1976年に『吃音者宣言』を提唱するなど、60年以上の歴史を迎えるセルフヘルプグループ。メディア協力等の実績あり。月二回の例会を東京言友会館（巣鴨（豊島区南大塚）：第二土曜日）と東京障害者福祉会館（三田（港区芝5丁目）：第四金曜日）にて行う。",
+            "tags": ["成人", "定例会","吃音改善","交流"],
             "status": "active", 
-             "last_confirmed": "2026-04"
+             "last_confirmed": "2026-09"
         },
 
         {
@@ -20,12 +20,12 @@
             "name": "うぃーすた関東",
             "region_level1": "関東",
             "region_level2": "東京都",
-            "region_level3": ["東京23区","多摩地域","横浜市","川崎市","千葉市","松戸市"],
+            "region_level3": ["東京23区","多摩地域","横浜市","川崎市","千葉市","松戸市","船橋市","さいたま市","川口市","越谷市","所沢市"],
              "affiliation": "うぃーすたPJT",
             "url": "https://we-are-stutt.jimdofree.com/%E5%90%84%E5%9C%B0%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%81%AE%E6%B4%BB%E5%8B%95/%E3%81%86%E3%81%83%E3%83%BC%E3%81%99%E3%81%9F%E9%96%A2%E6%9D%B1/",
             "twitter": "https://x.com/westu_kanto2",
             "note":"うぃーすたプロジェクトの関東ブロックの会として2016年発足。吃音者同士の交流を通して吃音への理解、共感を得られる場を目指している。",
-            "tags": ["成人", "定例会","若者"],
+            "tags": ["成人", "定例会","若者","交流"],
             "status": "active", 
              "last_confirmed": "2026-04"
         },
@@ -35,14 +35,16 @@
             "name": "千葉言友会",
             "region_level1": "関東",
             "region_level2": "千葉県",
-            "region_level3": ["千葉市", "松戸市"],
+            "region_level3": ["千葉市", "松戸市","船橋市"],
              "affiliation": "全言連",
             "url": "https://chibag-y-k.jimdofree.com/",
             "twitter": "https://x.com/chibagenyuukai",
-            "tags": ["成人", "定例会"],
+            "note":"1971年より活動開始、千葉市（千葉市民活動センターおよび、千葉市中央保険福祉センター『きぼーる』）と松戸市（新松戸市民センター）、で例会を開催。それ以外にも金曜サロン（蘇我例会）を開催",
+         "tags": ["成人", "定例会","若者"],
             "status": "active",
-             "last_confirmed": "2026-04"
+             "last_confirmed": "2026-09"
         },
+
         {
             "id": "org-kng-001",
             "name": "よこはま言友会",
@@ -52,10 +54,10 @@
              "affiliation": "全言連",
             "url": "https://yokohama-genyukai.wixsite.com/index",
             "twitter": "https://x.com/yokohama_gyk",
-            "note": "1994年に設立。親子きつおん交流会などのイベントを年一回開催。なお、よこはま言友会の旧ドメインを悪用し『横浜吃音治療院』なるWebサイトがあるが、これはよこはま言友会とは一切関係ないことに留意。",
-            "tags": ["成人", "親子","定例会"],
+            "note": "1994年に設立。親子きつおん交流会などのイベントを年一回開催。なお、よこはま言友会の旧ドメインを悪用し『横浜吃音治療院』なる医療機関のWebサイトがあるが、これはよこはま言友会とは「一切関係ない」ことに留意。",
+            "tags": ["成人", "親子","定例会","交流"],
             "status": "active",
-             "last_confirmed": "2026-04"
+             "last_confirmed": "2026-09"
         },
         {
             "id": "org-ibr-001",
@@ -122,7 +124,7 @@
              "affiliation": "独立",
              "url":null,
              "twitter": null,
-            "note": "旧栃木言友会、現在はとちぎ「ことばの友」会として活動中",
+            "note": "旧栃木言友会、現在はとちぎ「ことばの友」会として小山市内で活動中",
             "status": "active",   
              "last_confirmed": "2026-04"
         },
@@ -135,9 +137,9 @@
             "affiliation": "全言連",
             "url": "https://saitama-genyukai.jimdofree.com/",
             "twitter": "https://x.com/saitamagenyukai",
-             "note": "2021年よりコロナ禍によってマンパワー不足で活動休止状態だったが、2025年9月より再開",
+             "note": "2021年よりコロナ禍によってマンパワー不足で活動休止状態だったが、2025年9月より活動を再開。毎月の例会以外にもレクリエーション例会（鉄道博物館例会・スイーツ例会など）も開催されている",
               "status": "active",   
-             "last_confirmed": "2026-04"
+             "last_confirmed": "2026-09"
         }
     ]
 }
