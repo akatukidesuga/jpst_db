@@ -172,6 +172,21 @@
             "tags": ["成人", "定例会"],
             "status": "active", 
              "last_confirmed": "2026-09"
+        },
+
+        {
+          "id": "org-kss-001",
+            "name": "うぃーすた甲信越",
+            "region_level1": "中部",
+            "region_level2": "長野県,山梨県,新潟県",
+            "region_level3": ["長野市","松本市","甲府市","新潟市"],
+             "affiliation": "うぃーすたPJT",
+            "url": "",
+            "twitter": "https://x.com/westu_koshine2",
+            "note": "10代〜30代の吃音のある若者を対象とした交流サークルです。山梨・長野・新潟にて、2025年1月より活動開始。",
+            "tags": ["成人", "定例会","若者"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
         }
     ]
 }

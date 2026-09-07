@@ -1,0 +1,122 @@
+{
+    "organizations": [
+        {
+            "id": "org-fuk-001",
+            "name": "福岡言友会",
+            "region_level1": "九州",
+            "region_level2": "福岡県",
+            "region_level3": ["福岡市"],
+             "affiliation": "全言連",
+            "url": "https://cf064138.cloudfree.jp/",
+            "twitter": "https://x.com/fukuokagenyukai",
+            "note": "1968年設立の言友会。第二・第四火曜日 20時～22時まで老人いこいの家（鶴舞公民館：中央区舞鶴2丁目）にて例会開催。毎年3月に『九州・中高生のつどい』を福岡言友会主催で開催（2026年で14回開催）。",
+            "tags": ["成人", "定例会","吃音改善","若者"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        },
+        {
+          "id": "org-fuk-002",
+            "name": "北九州言友会",
+            "region_level1": "九州",
+            "region_level2": "福岡県",
+            "region_level3": ["北九州市"],
+             "affiliation": "全言連",
+            "url": "https://kitakyushugenyuukai.web.fc2.com/",
+            "twitter": "https://x.com/genyuukai_ktksu",
+            "note": "JR戸畑駅（鹿児島本線：駅ナンバー JA25）隣のウェルとばたにて毎月第二土曜日18時より例会を開催。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"   
+        },
+
+        {
+            "id": "org-kma-001",
+            "name": "熊本言友会",
+            "region_level1": "九州",
+            "region_level2": "熊本県",
+            "region_level3": ["熊本市,菊陽町"],
+             "affiliation": "全言連",
+            "url": "https://kumamotogenyukai.wixsite.com/homepage",
+            "twitter": "https://x.com/0TS7eDcafCB6e9W",
+            "note": "1979年に活動を開始、大江公民館（熊本市中央区大江）にて第三土曜日19時より例会を開催。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"   
+        },
+     {
+          "id": "org-sga-001",
+            "name": "さがんすた",
+            "region_level1": "九州",
+            "region_level2": "佐賀県",
+            "region_level3": ["佐賀市,鳥栖市"],
+             "affiliation": "全言連",
+            "url": "https://saganstu.jimdofree.com/",
+            "twitter": "",
+            "note": "奇数月に神野公民館（佐賀市神野西）にて13時より例会を開催、参加費は500円（会員無料）",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"   
+        },
+
+        {
+            "id": "org-oit-001",
+            "name": "大分言友会",
+            "region_level1": "九州",
+            "region_level2": "大分県",
+            "region_level3": ["大分市"],
+             "affiliation": "全言連",
+            "url": "https://oitagenyuukai.jimdofree.com/",
+            "twitter": "",
+            "note": "1975年より吃音当事者のためのセルフヘルプ・グループとして活動開始。毎月第三土曜日の18時よりJ:COMホルトホール大分（大分市金池南）にて例会を開催。他にもアウトリーチ（吃音カフェ）などの啓発事業を開催。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"   
+        },
+
+             {
+            "id": "org-myz-001",
+            "name": "言友会 宮崎のわ",
+            "region_level1": "九州",
+            "region_level2": "宮崎県",
+            "region_level3": ["宮崎市"],
+             "affiliation": "全言連",
+            "url": "https://genyukaimiyazakino.wixsite.com/miyazakinowa",
+            "twitter": "tps://x.com/GenyukaiW",
+            "note": "宮崎で吃音克服のために活動するセルフヘルプ・グループ、不定期で例会を開催。詳細な情報はInstagramから（https://www.instagram.com/miyazaki.kitsuon）",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"   
+        },
+
+        {
+            "id": "org-kag-001",
+            "name": "鹿児島言友会",
+            "region_level1": "九州",
+            "region_level2": "鹿児島県",
+            "region_level3": ["鹿児島市"],
+             "affiliation": "全言連",
+            "url": "https://kagogen.localinfo.jp/",
+            "twitter": "",
+            "note": "2013年に活動開始、吃音・話し言葉・スピーチについての情報交換や、学習会・交流会を行う中で吃音とつきあいながら生活していくことを共に考える会である他、半年に一度、花見やバーベキューのつどいも行う。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"   
+        },
+
+             {
+            "id": "org-oki-001",
+            "name": "沖縄きつおんピアネット",
+            "region_level1": "九州",
+            "region_level2": "沖縄県",
+            "region_level3": ["那覇市,浦添市"],
+             "affiliation": "独立",
+            "url": "https://ryukyugenyukai.localinfo.jp/",
+            "twitter": "",
+            "note": "2023年頃までは琉球言友会として活動していたが、2025年8月より沖縄きつおんピアネットと改称。主にLINEグループにて活動を行う。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"   
+        }
+    ]
+
+}

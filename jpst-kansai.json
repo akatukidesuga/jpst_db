@@ -19,9 +19,9 @@
             "id": "org-osk-002",
             "name": "うぃーすた関西",
             "region_level1": "関西",
-            "region_level2": "大阪府",
-            "region_level3": ["大阪市","堺市","吹田市","京都市","神戸市"],
-             "affiliation": "うぃーすた",
+            "region_level2": "大阪府,京都府,兵庫県",
+            "region_level3": ["大阪市","堺市","吹田市","京都市","神戸市","奈良市,大和郡山市,天理市","大津市,彦根市,近江八幡市","和歌山市","田辺市","新宮市"],
+             "affiliation": "うぃーすたPJT",
             "url": "https://we-are-stutt.jimdofree.com/%E5%90%84%E5%9C%B0%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%81%AE%E6%B4%BB%E5%8B%95/%E3%81%86%E3%81%83%E3%83%BC%E3%81%99%E3%81%9F%E9%96%A2%E8%A5%BF/",
             "twitter": "https://x.com/westu_kansai",
             "note": "吃音を持つ若者のためのセルフヘルプグループとして、会員同士の交流を深めるイベントも企画している。",
@@ -73,9 +73,54 @@
             "status": "active", 
              "last_confirmed": "2026-09"
         },
-        
+    
+     {
+            "id": "org-hyo-002",
+            "name": "姫路言友会",
+            "region_level1": "関西",
+            "region_level2": "兵庫県",
+            "region_level3": ["姫路市,たつの市"],
+             "affiliation": "全言連",
+            "url": "https://himeji-genyukai-2.jimdosite.com/",
+            "twitter": "https://x.com/himejigenyukai1",
+            "note": "例会は姫路市総合福祉会館（姫路市安田）にて不定期開催（奇数月）。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        },
+
+             {
+            "id": "org-nra-001",
+            "name": "奈良言友会",
+            "region_level1": "関西",
+            "region_level2": "奈良県",
+            "region_level3": ["奈良市,大和郡山市,天理市"],
+             "affiliation": "全言連",
+            "url": "https://nara-genyukai.jimdofree.com/",
+            "twitter": "https://x.com/naragenyukai",
+            "note": "2012年4月に発足、毎月第2日曜日午後1時半より 奈良市ボランティア・インフォーメーションセンター（奈良市三条本町）にて例会開催。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        },
+
         {
-            "id": "org-wky-002",
+            "id": "org-sga-001",
+            "name": "滋賀言友会",
+            "region_level1": "関西",
+            "region_level2": "滋賀県",
+            "region_level3": ["大津市,彦根市,近江八幡市"],
+             "affiliation": "全言連",
+            "url": "https://shigagyk.wixsite.com/shiga-gyk",
+            "twitter": "https://x.com/shiga_gyk",
+            "note": "2022年9月18日に発足。フェリエ南草津（草津市野路）にて例会を開催",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-09"
+        },
+
+        {
+            "id": "org-wky-001",
             "name": "わかやま言友会",
             "region_level1": "関西",
             "region_level2": "和歌山県",
