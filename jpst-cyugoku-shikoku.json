@@ -1,0 +1,102 @@
+{
+    "organizations": [
+        {
+            "id": "org-shim-001",
+            "name": "島根言友会",
+            "region_level1": "島根県",
+            "region_level2": "島根県",
+            "region_level3": ["出雲市","松江市","浜田市","益田市","美郷市"],
+             "affiliation": "全言連",
+            "url": "https://sites.google.com/view/shimane-kitsuon/",
+            "twitter": "",
+            "note": "島根県で活動する吃音者のセルフヘルプグループ。2022年に設立。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-11"
+        },
+          {
+            "id": "org-oka-001",
+            "name": "岡山言友会",
+            "region_level1": "岡山県",
+            "region_level2": "岡山県",
+            "region_level3": ["岡山市","津山市","玉野市","新見市","浅口市"],
+             "affiliation": "全言連",
+            "url": "https://okayamakitsuon.jimdofree.com/",
+            "twitter": "https://x.com/okym_genyu_kai/",
+            "note": "岡山県で活動する吃音者のセルフヘルプグループ。1970年頃に発足した岡山言友会。コロナ等の理由により何回か休会したが、2024年に再開。吃音相談を年1回(6月)に開催",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "inactive", 
+             "last_confirmed": "2026-11"
+        },
+             {
+            "id": "org-hiro-001",
+            "name": "広島言友会",
+            "region_level1": "広島県",
+            "region_level2": "広島県",
+            "region_level3": ["広島市","呉市","竹原市","三次市","廿日市"],
+             "affiliation": "全言連",
+            "url": "https://hiro2014genyukai.jimdofree.com/",
+            "twitter": "",
+            "note": "広島県で活動する吃音者のセルフヘルプグループ。毎月第2日曜日に二葉公民館（広島市）にて開催",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-11"
+        },
+         {
+            "id": "org-kgw-001",
+            "name": "香川言友会",
+            "region_level1": "香川県",
+            "region_level2": "香川県",
+            "region_level3": ["高松市","丸亀市","坂出市","善通寺市","観音寺市"],
+             "affiliation": "全言連",
+            "url": "https://kagawagenyukai.jimdofree.com/",
+            "twitter": "https://x.com/udon_genyukai",
+            "note": "香川県で活動する吃音者のセルフヘルプグループ。2020年より活動開始、高松市や丸亀市などにて例会を開催",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-11"
+        },
+                 {
+            "id": "org-tks-001",
+            "name": "徳島言友会",
+            "region_level1": "徳島県",
+            "region_level2": "徳島県",
+            "region_level3": ["徳島市","鳴門市","小松島市","阿南市","阿波市"],
+             "affiliation": "全言連",
+            "url": "https://tokushima-gennyuukai.jimdosite.com/",
+            "twitter": "https://x.com/tokushima0612",
+            "note": "徳島県で活動する吃音者のセルフヘルプグループ。徳島市や鳴門市などにて例会を開催",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-11"
+        },
+         {
+            "id": "org-kch-001",
+            "name": "高知言友会",
+            "region_level1": "高知県",
+            "region_level2": "高知県",
+            "region_level3": ["高知市","南国市","四万十市","須崎市","宿毛市"],
+             "affiliation": "全言連",
+            "url": "https://sites.google.com/view/kochigenyuukai/",
+            "twitter": "https://x.com/kitsuonkochi2",
+            "note": "高知県で活動する吃音者のセルフヘルプグループ。吃音があっても「あなたにはあなたの声があり、あなたの生き方があります」という理念の下で2023年より活動開始。最近の活動はInstagramで公表されている。",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-11"
+        },
+             {
+            "id": "org-ehm-001",
+            "name": "愛媛言友会",
+            "region_level1": "愛媛県",
+            "region_level2": "愛媛県",
+            "region_level3": ["松山市","今治市","新居浜市","西条市","四国中央市"],
+             "affiliation": "全言連",
+            "url": "https://ehimegenyukai.jimdofree.com/",
+            "twitter": "https://x.com/kitsuonkochi2",
+            "note": "1999年に設立。毎月第四日曜日にて松山市総合福祉センター（松山市若草町）にて開催されるほか、今治市でも例会を開催。また、吃音の方にどう接すればよいかとまどっているなどの人に向けた愛媛言友会 吃音相談室を松山市総合福祉センターにて開催している。",
+            "tags": ["成人", "定例会","吃音改善","吃音相談"],
+            "status": "active", 
+             "last_confirmed": "2026-11"
+        }
+    ]
+}
