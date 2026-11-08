@@ -64,14 +64,14 @@
             "name": "茨城言友会",
             "region_level1": "関東",
             "region_level2": "茨城県",
-            "region_level3": ["つくば市","土浦市","水戸市"],
+            "region_level3": ["つくば市","土浦市","水戸市","日立市","牛久市","守谷市"],
              "affiliation": "全言連",
             "url": "https://ibarakigenyukai.org/",
             "twitter": "https://x.com/ibarakigenyukai",
-            "note": "2000年設立。つくば市や水戸市を拠点に活動するも、現在は役員の高齢化等にて2025年10月以降は事実上の休止状態。再開予定は未定。",
+            "note": "2000年設立。つくば市や水戸市を拠点に活動するも、現在は役員の高齢化等にて2025年10月以降は事実上の休止状態であったが、2026年11月より新体制に移行。",
             "tags": ["成人", "定例会"],
-            "status": "inactive",   
-             "last_confirmed": "2026-04"
+            "status": "active",   
+             "last_confirmed": "2026-11"
         },
         {
             "id": "org-ibr-002",
@@ -84,7 +84,7 @@
             "twitter": "https://x.com/tsukubakitsuon",
              "note": "筑波大学の学生を中心とした吃音当事者会として、2021年に活動開始。月一回程度の定例会と吃音についての研究会（流暢性研究会）を行う。",
             "tags": ["成人", "定例会","学生","大学","若者"],
-            "status": "active",
+            "status": "inactive",
              "last_confirmed": "2026-04"
         },
 
