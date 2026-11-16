@@ -1,11 +1,282 @@
 <!DOCTYPE html>
+<!--
+  吃音団体データベースJP（JPST-DB）公開ページ
+-->
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JPST-DB</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>吃音団体データベースJP｜全国の吃音当事者団体を地域から探す</title>
+<meta name="description" content="言友会などの吃音当事者団体を、地域と活動状況から探せるデータベースです。">
+<style>
+/* ===== 色・文字の設定（見た目を変えたいときはここだけ触る）===== */
+:root {
+  --bg: #f4f7f8;          /* ページの背景 */
+  --paper: #ffffff;       /* 団体の表示エリア */
+  --ink: #1f2a33;         /* 本文 */
+  --muted: #55646f;       /* 補足の文字 */
+  --line: #d3dce1;        /* 区切り線 */
+  --accent: #1d6a75;      /* 選択中・リンク */
+  --accent-soft: #e0f0f2; /* 選択中の背景 */
+  --paused: #8a949b;      /* 休止中の印 */
+  --font: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Noto Sans JP", Meiryo, sans-serif;
+}
+
+/* ===== 基本 ===== */
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); line-height: 1.8; }
+.wrap { max-width: 44rem; margin: 0 auto; padding: 0 1rem; }
+h1 { font-size: 1.6rem; line-height: 1.4; margin: 0 0 .5rem; }
+h2 { font-size: 1.15rem; margin: 2.5rem 0 .75rem; }
+h3 { font-size: 1.05rem; margin: 0; }
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+p { margin: 0 0 .5rem; }
+
+/* ===== 先頭の説明 ===== */
+header { padding: 2rem 0 1rem; }
+.lead { font-size: 1.05rem; }
+.caution { font-size: .9rem; color: var(--muted); border-left: 3px solid var(--line); padding-left: .75rem; margin-top: 1rem; }
+
+/* ===== 地域ボタン ===== */
+.blocks { display: grid; grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr)); gap: .5rem; }
+.blocks button {
+  min-height: 3rem; padding: .4rem .6rem; font: inherit; text-align: left; cursor: pointer;
+  background: var(--paper); color: var(--ink); border: 1px solid var(--line); border-radius: 6px;
+}
+.blocks button .count { display: block; font-size: .8rem; color: var(--muted); }
+.blocks button[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); font-weight: 700; }
+
+/* ===== 検索・切り替え ===== */
+.tools { margin-top: 1rem; display: grid; gap: .75rem; }
+.tools label { display: block; font-size: .9rem; }
+.tools input[type="search"] { width: 100%; min-height: 2.75rem; padding: .4rem .6rem; font: inherit; border: 1px solid var(--line); border-radius: 6px; margin-top: .2rem; }
+.tools .check { display: flex; align-items: center; gap: .5rem; min-height: 2.75rem; }
+.tools .check input { width: 1.25rem; height: 1.25rem; }
+
+/* ===== 団体の一覧 ===== */
+#result-title { margin-top: 2rem; }
+.list { list-style: none; margin: 0; padding: 0; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; }
+.org { padding: 1rem 1rem 1rem .9rem; border-left: 5px solid var(--accent); border-bottom: 1px solid var(--line); }
+.org:last-child { border-bottom: 0; }
+.org.is-inactive { border-left-color: var(--paused); background: #fafbfb; }
+.org .where { color: var(--muted); font-size: .9rem; }
+.org .note { margin-top: .5rem; }
+.org .meta { color: var(--muted); font-size: .85rem; margin-top: .5rem; }
+.status { font-weight: 700; color: var(--accent); }
+.is-inactive .status { color: var(--muted); }
+.tags { display: flex; flex-wrap: wrap; gap: .35rem; list-style: none; padding: 0; margin: .5rem 0 0; }
+.tags li { font-size: .8rem; padding: 0 .5rem; border: 1px solid var(--line); border-radius: 99px; }
+.links { margin-top: .5rem; display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
+.empty { padding: 1.25rem 1rem; }
+
+/* ===== 説明・フッター ===== */
+.about p { max-width: 38rem; }
+footer { margin: 3rem 0 0; padding: 1.5rem 0 3rem; border-top: 1px solid var(--line); font-size: .85rem; color: var(--muted); }
+</style>
 </head>
+
 <body>
-    
+<div class="wrap">
+
+<header>
+  <h1>吃音団体データベースJP</h1>
+  <p class="lead">全国の吃音当事者団体（言友会など）を、地域から探せます。</p>
+  <p class="caution">個人が公開情報をもとにまとめたものです。参加する前に、各団体の公式サイトやSNSで最新の情報をご確認ください。</p>
+</header>
+
+<main>
+  <section aria-labelledby="find-title">
+    <h2 id="find-title">地域をえらぶ</h2>
+    <div id="blocks" class="blocks" role="group" aria-label="地域"></div>
+
+    <div class="tools">
+      <label>
+        キーワードで絞りこむ（団体名・都道府県・市の名前など）
+        <input type="search" id="q" autocomplete="off">
+      </label>
+      <label class="check">
+        <input type="checkbox" id="show-inactive">
+        休止中の団体も表示する
+      </label>
+    </div>
+  </section>
+
+  <section aria-labelledby="result-title" aria-live="polite">
+    <h2 id="result-title">団体の一覧</h2>
+    <ul id="list" class="list"></ul>
+  </section>
+
+  <section class="about" aria-labelledby="about-title">
+    <h2 id="about-title">このサイトについて</h2>
+    <p>吃音当事者として、団体の情報が散らばっていて探しにくいと感じたことから、地域と活動状況ごとに整理しています。</p>
+    <p>「全言連」は<a href="https://www.zengenren.org/">全国言友会連絡協議会</a>のことです。地域の分け方は、全言連の地域ブロックに合わせているため、一般的な地方区分と少し違う場合があります。</p>
+    <p>情報の間違いや更新は、<a href="https://github.com/akatukidesuga/jpst_db/issues">GitHubのIssue</a>でお知らせください。団体ごとに「最終確認」の年月を載せています。</p>
+  </section>
+</main>
+
+<footer>
+  <p>データはJSONで公開しています：<a href="https://github.com/akatukidesuga/jpst_db">GitHubのリポジトリ</a>（CC BY 4.0）。個人運営のため、定期的な更新はお約束できません。</p>
+</footer>
+
+</div>
+
+<script>
+/* =====================================================================
+   設定（ここを直せば、下のプログラムは触らなくてよい）
+   ===================================================================== */
+
+// 地域ブロック。表示順＝この並び順。
+// 地域を増やすときは、JSONを追加して、ここに1行足すだけ。
+// ※ブロックは「どのファイルから読んだか」で決める。JSONの region_level1 には頼らない。
+const BLOCKS = [
+  { id: "hokkaido",        label: "北海道",     file: "jpst-hokkaido.json" },
+  { id: "tohoku",          label: "東北",       file: "jpst-tohoku.json" },
+  { id: "kanto",           label: "関東",       file: "jpst-kanto.json" },
+  { id: "cyubu",           label: "中部",       file: "jpst-cyubu.json" },
+  { id: "kansai",          label: "関西",       file: "jpst-kansai.json" },
+  { id: "cyugoku-shikoku", label: "中国・四国", file: "jpst-cyugoku-shikoku.json" },
+  { id: "kyusyu-oki",      label: "九州・沖縄", file: "jpst-kyusyu-oki.json" },
+];
+
+// 活動状況の表示名（JSONの status の値 → 画面に出す言葉）
+const STATUS_LABEL = { active: "活動中", inactive: "休止中" };
+
+// JSONの中で、画面が使っている項目：
+//   name, region_level2（都道府県）, region_level3（市区町村の配列）,
+//   affiliation, url, twitter, note, tags（配列）, status, last_confirmed（"2026-11"）
+// 項目の名前を変えたら、下の render() の中も合わせて直す。
+
+
+/* =====================================================================
+   プログラム
+   ===================================================================== */
+
+const state = { block: "all", keyword: "", showInactive: false };
+let orgs = [];   // 全団体（読み込み後に入る）
+let failed = []; // 読み込めなかったファイル名
+
+// --- 小さな道具 ---------------------------------------------------
+
+// JSONの文字をHTMLに入れる前に無害化する（<script> などが紛れても動かないように）
+function esc(text) {
+  return String(text ?? "").replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+// http / https 以外のURLは出さない
+function safeUrl(url) {
+  return /^https?:\/\//.test(url || "") ? url : "";
+}
+
+// "2026-11" → "2026年11月"。形が違えばそのまま出す
+function formatMonth(value) {
+  const m = /^(\d{4})-(\d{1,2})$/.exec(value || "");
+  return m ? `${m[1]}年${Number(m[2])}月` : (value || "不明");
+}
+
+// --- データの読み込み ---------------------------------------------
+
+async function loadAll() {
+  const results = await Promise.allSettled(
+    BLOCKS.map(b => fetch(b.file).then(r => {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    }))
+  );
+  results.forEach((res, i) => {
+    const block = BLOCKS[i];
+    if (res.status === "fulfilled") {
+      (res.value.organizations || []).forEach(o => orgs.push({ ...o, block: block.id }));
+    } else {
+      failed.push(block.file);
+    }
+  });
+}
+
+// --- 絞りこみ ------------------------------------------------------
+
+function filtered() {
+  const words = state.keyword.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  return orgs.filter(o => {
+    if (state.block !== "all" && o.block !== state.block) return false;
+    if (!state.showInactive && o.status !== "active") return false;
+    const haystack = [o.name, o.region_level2, ...(o.region_level3 || []), o.note, ...(o.tags || [])]
+      .join(" ").toLowerCase();
+    return words.every(w => haystack.includes(w));
+  });
+}
+
+// --- 画面の組み立て ------------------------------------------------
+
+function renderBlocks() {
+  const countOf = id => orgs.filter(o => (id === "all" || o.block === id) && o.status === "active").length;
+  const items = [{ id: "all", label: "全国" }, ...BLOCKS];
+  document.getElementById("blocks").innerHTML = items.map(b => `
+    <button type="button" data-block="${b.id}" aria-pressed="${state.block === b.id}">
+      ${esc(b.label)}<span class="count">活動中 ${countOf(b.id)}団体</span>
+    </button>`).join("");
+}
+
+function renderOrg(o) {
+  const isActive = o.status === "active";
+  const site = safeUrl(o.url);
+  const x = safeUrl(o.twitter);
+  const areas = (o.region_level3 || []).join("、");
+  const tags = (o.tags || []).map(t => `<li>${esc(t)}</li>`).join("");
+  return `
+    <li class="org ${isActive ? "is-active" : "is-inactive"}">
+      <h3>${esc(o.name)}</h3>
+      <p class="where">${esc(o.region_level2)}${areas ? "（" + esc(areas) + "など）" : ""}</p>
+      ${o.note ? `<p class="note">${esc(o.note)}</p>` : ""}
+      ${tags ? `<ul class="tags">${tags}</ul>` : ""}
+      ${(site || x) ? `<p class="links">
+        ${site ? `<a href="${esc(site)}" target="_blank" rel="noopener">公式サイト</a>` : ""}
+        ${x ? `<a href="${esc(x)}" target="_blank" rel="noopener">X（旧Twitter）</a>` : ""}
+      </p>` : ""}
+      <p class="meta">
+        <span class="status">${esc(STATUS_LABEL[o.status] || o.status)}</span>
+        ／ 最終確認 ${esc(formatMonth(o.last_confirmed))}
+        ${o.affiliation === "全言連" ? "／ 全言連に加盟" : ""}
+      </p>
+    </li>`;
+}
+
+function render() {
+  const list = document.getElementById("list");
+  const title = document.getElementById("result-title");
+
+  if (failed.length) {
+    title.textContent = "団体の一覧";
+    list.innerHTML = `<li class="empty">データを読み込めませんでした（${esc(failed.join("、"))}）。
+      ファイルをダブルクリックで開いている場合は、リポジトリのフォルダで
+      <code>python -m http.server</code> を実行して、http://localhost:8000/ から開いてください。</li>`;
+    return;
+  }
+
+  const hits = filtered();
+  title.textContent = `団体の一覧（${hits.length}団体）`;
+  list.innerHTML = hits.length
+    ? hits.map(renderOrg).join("")
+    : `<li class="empty">条件に合う団体が見つかりませんでした。
+        「休止中の団体も表示する」をオンにするか、地域を「全国」に戻してみてください。</li>`;
+}
+
+// --- 操作 ----------------------------------------------------------
+
+document.getElementById("blocks").addEventListener("click", e => {
+  const button = e.target.closest("button[data-block]");
+  if (!button) return;
+  state.block = button.dataset.block;
+  renderBlocks();
+  render();
+});
+document.getElementById("q").addEventListener("input", e => { state.keyword = e.target.value; render(); });
+document.getElementById("show-inactive").addEventListener("change", e => { state.showInactive = e.target.checked; render(); });
+
+// --- 起動 ----------------------------------------------------------
+
+loadAll().then(() => { renderBlocks(); render(); });
+</script>
 </body>
 </html>
