@@ -1,5 +1,19 @@
 {
     "organizations": [
+              {
+            "id": "org-cyu-001",
+            "name": "うぃーすた中国",
+            "region_level1": "中国",
+            "region_level2": "広島県,岡山県,島根県,鳥取県,山口県",
+            "region_level3": ["広島市","呉市","竹原市","三次市","廿日市"],
+             "affiliation": "うぃーすたPJT",
+            "url": "",
+            "twitter": "https://x.com/we_stu_chugoku",
+            "note": "中国地区で活動する吃音者の若者らによるセルフヘルプグループ。活動は不定期",
+            "tags": ["成人", "定例会","若者"],
+            "status": "active", 
+             "last_confirmed": "2026-11"
+        },
         {
             "id": "org-shim-001",
             "name": "島根言友会",
@@ -53,6 +67,21 @@
             "twitter": "https://x.com/udon_genyukai",
             "note": "香川県で活動する吃音者のセルフヘルプグループ。2020年より活動開始、高松市や丸亀市などにて例会を開催",
             "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-11"
+        },
+
+              {
+            "id": "org-kgw-002",
+            "name": "うぃーすた四国",
+            "region_level1": "四国",
+            "region_level2": "香川県,徳島県,愛媛県,高知県",
+            "region_level3": ["高松市","丸亀市","坂出市","善通寺市","観音寺市","徳島市","鳴門市","小松島市","阿南市","阿波市","松山市","今治市","新居浜市","西条市","四国中央市","高知市","南国市","四万十市","須崎市","宿毛市"],
+             "affiliation": "うぃーすたPJT",
+            "url": "",
+            "twitter": "https://x.com/westu_sikoku",
+            "note": "四国エリアで活動する吃音者の若者によるセルフヘルプグループ。2023年より活動開始。四国各地で例会を開催",
+            "tags": ["成人", "定例会","若者"],
             "status": "active", 
              "last_confirmed": "2026-11"
         },
