@@ -57,7 +57,7 @@
             "note": "宮城言友会の支援を受けて2024年に発足した吃音者のセルフヘルプグループ。盛岡市内（岩手県民交流センター）にて交流会を開催",
             "tags": ["成人", "定例会"],
             "status": "active", 
-             "last_confirmed": "2026-04"
+             "last_confirmed": "2026-11"
         },
    {
             "id": "org-fsm-001",
@@ -66,12 +66,13 @@
             "region_level2": "福島県",
             "region_level3": ["福島市","郡山市","いわき市","会津若松市"],
              "affiliation": "独立",
-            "url": "https://www.fukushima-kitsuon.com/",
+            "url": "https://kitsufuku.wixsite.com/konwakai",
             "twitter": "https://x.com/fukushimakitsu1",
+            "instagram": "https://www.instagram.com/fukushima_kitsuon/",
             "note": "福島県の吃音に関心のある全ての方々の「つながり」をつくるため、専門家や吃音のある当事者、保護者があつまり2017年に発足した吃音のサポートグループ。交流会のほか、専門職の方の知識・技術向上を目的とした研修会の開催、吃音の啓発を目的とした講演も行う。",
             "tags": ["成人", "定例会","親子"],
             "status": "active", 
-             "last_confirmed": "2026-04"
+             "last_confirmed": "2026-11"
         },
 
            {
@@ -87,7 +88,7 @@
             "note": "2026年8月発足、26年10月より定例会開始。紹介文より引用『2026年8月30日に発足した福島言友（げんゆう）会です！吃音（きつおん）のある人たちが主体となって活動するセルフヘルプグループ（自助グループ）のことです 』",
             "tags": ["成人", "定例会","親子"],
             "status": "active", 
-             "last_confirmed": "2026-09"
+             "last_confirmed": "2026-11"
         }
     ]
 }
