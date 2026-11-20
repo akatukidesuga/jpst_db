@@ -56,6 +56,22 @@
             "status": "active", 
              "last_confirmed": "2026-11"
         },
+
+                   {
+            "id": "org-ymgc-001",
+            "name": "山口言友会",
+            "region_level1": "中国",
+            "region_level2": "山口県",
+            "region_level3": ["山口市","下松市","宇部市","下関市","萩市","防府市"],
+             "affiliation": "全言連",
+            "url": "",
+            "twitter": "https://x.com/yamaguchi_gyk",
+            "instagram": "https://www.instagram.com/yamaguchi_genyukai",
+            "note": "山口県で活動する吃音者のセルフヘルプグループ。偶数月の第三日曜日に下松市ほしらんどくだまつ（下松市大手町2丁目）にて交流会を開催",
+            "tags": ["成人", "定例会","吃音改善"],
+            "status": "active", 
+             "last_confirmed": "2026-11"
+        },
          {
             "id": "org-kgw-001",
             "name": "香川言友会",
