@@ -234,7 +234,7 @@ function renderOrg(o) {
         ${site ? `<a href="${esc(site)}" target="_blank" rel="noopener">公式サイト</a>` : ""}
         ${x ? `<a href="${esc(x)}" target="_blank" rel="noopener">X（旧Twitter）</a>` : ""}
          ${o.instagram ? `<a href="${esc(o.instagram)}" target="_blank" rel="noopener">Instagram</a>` : ""}
-          ${o.note-pok ? `<a href="${esc(o.note-pok)}" target="_blank" rel="noopener">note</a>` : ""}
+          ${o.note_url ? `<a href="${esc(o.note_url)}" target="_blank" rel="noopener">note</a>` : ""}
       </p>` : ""}
       <p class="meta">
         <span class="status">${esc(STATUS_LABEL[o.status] || o.status)}</span>

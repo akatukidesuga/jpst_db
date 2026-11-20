@@ -70,6 +70,7 @@
             "url": "https://ibarakigenyukai.org/",
             "twitter": "https://x.com/ibarakigenyukai",
             "instagram": "https://www.instagram.com/ibarakigenyukai/",
+            "note_url": "https://note.com/ibarakigenyukai",
             "note": "2000年設立。つくば市や水戸市を拠点に活動するも、現在は役員の高齢化等にて2025年10月以降は事実上の休止状態であったが、2026年11月より新体制に移行。",
             "tags": ["成人", "定例会"],
             "status": "active",   
@@ -84,11 +85,11 @@
             "affiliation": "独立",
             "url": "https://tsukubakitsuon.wordpress.com/",
             "twitter": "https://x.com/tsukubakitsuon",
-            "note-pok": "https://note.com/tsukubakitsuon",
+            "note_url": "https://note.com/tsukubakitsuon",
              "note": "筑波大学の学生を中心とした吃音当事者会として、2021年に活動開始。月一回程度の定例会と吃音についての研究会（流暢性研究会）を行う。",
             "tags": ["成人", "定例会","学生","大学","若者"],
             "status": "active",
-             "last_confirmed": "2026-04"
+             "last_confirmed": "2026-11"
         },
 
                 {
