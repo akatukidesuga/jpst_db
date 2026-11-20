@@ -80,7 +80,7 @@ footer { margin: 3rem 0 0; padding: 1.5rem 0 3rem; border-top: 1px solid var(--l
 <div class="wrap">
 
 <header>
-  <h1>吃音団体データベースJP</h1>
+  <h1>吃音団体データベースJP（JPST-DB）</h1>
   <p class="lead">全国の吃音当事者団体（言友会など）を、地域から探せます。</p>
   <p class="caution">個人が公開情報をもとにまとめたものです。参加する前に、各団体の公式サイトやSNSで最新の情報をご確認ください。</p>
 </header>
@@ -142,10 +142,26 @@ const BLOCKS = [
 // 活動状況の表示名（JSONの status の値 → 画面に出す言葉）
 const STATUS_LABEL = { active: "活動中", inactive: "休止中" };
 
+// リンクの種類。JSONの項目名 → 画面に出す名前。上から順に並ぶ。
+// 増やすときは1行足すだけ。項目名にハイフンがあっても大丈夫（"note-pok" など）。
+const LINK_FIELDS = [
+  { key: "url",       label: "公式サイト" },
+  { key: "twitter",   label: "X（旧Twitter）" },
+  { key: "instagram", label: "Instagram" },
+  { key: "note-pok",  label: "note" },
+];
+
+// 所属（JSONの affiliation の値 → 画面に出す言葉）。増やすときは1行足す。
+const AFFILIATION_LABEL = {
+  "全言連":       "全言連に加盟",
+  "うぃーすたPJT": "うぃーすたプロジェクト",
+};
+
 // JSONの中で、画面が使っている項目：
 //   name, region_level2（都道府県）, region_level3（市区町村の配列）,
-//   affiliation, url, twitter, note, tags（配列）, status, last_confirmed（"2026-11"）
-// 項目の名前を変えたら、下の render() の中も合わせて直す。
+//   affiliation, note, tags（配列）, status, last_confirmed（"2026-11"）,
+//   リンク類（LINK_FIELDS に書いた項目）
+// 項目の名前を変えたら、下の renderOrg() の中も合わせて直す。
 
 
 /* =====================================================================
@@ -220,27 +236,27 @@ function renderBlocks() {
 
 function renderOrg(o) {
   const isActive = o.status === "active";
-  const site = safeUrl(o.url);
-  const x = safeUrl(o.twitter);
   const areas = (o.region_level3 || []).join("、");
   const tags = (o.tags || []).map(t => `<li>${esc(t)}</li>`).join("");
+  // リンク：LINK_FIELDS の順に、URLが入っているものだけ並べる
+  // （項目名は o[...] で読むので、"note-pok" のようなハイフン入りでも動く）
+  const links = LINK_FIELDS
+    .map(f => ({ label: f.label, href: safeUrl(o[f.key]) }))
+    .filter(l => l.href)
+    .map(l => `<a href="${esc(l.href)}" target="_blank" rel="noopener">${esc(l.label)}</a>`)
+    .join("");
+  const affiliation = AFFILIATION_LABEL[o.affiliation];
   return `
     <li class="org ${isActive ? "is-active" : "is-inactive"}">
       <h3>${esc(o.name)}</h3>
       <p class="where">${esc(o.region_level2)}${areas ? "（" + esc(areas) + "など）" : ""}</p>
       ${o.note ? `<p class="note">${esc(o.note)}</p>` : ""}
       ${tags ? `<ul class="tags">${tags}</ul>` : ""}
-      ${(site || x || o.instagram) ? `<p class="links">
-        ${site ? `<a href="${esc(site)}" target="_blank" rel="noopener">公式サイト</a>` : ""}
-        ${x ? `<a href="${esc(x)}" target="_blank" rel="noopener">X（旧Twitter）</a>` : ""}
-         ${o.instagram ? `<a href="${esc(o.instagram)}" target="_blank" rel="noopener">Instagram</a>` : ""}
-          ${o.note_url ? `<a href="${esc(o.note_url)}" target="_blank" rel="noopener">note</a>` : ""}
-      </p>` : ""}
+      ${links ? `<p class="links">${links}</p>` : ""}
       <p class="meta">
         <span class="status">${esc(STATUS_LABEL[o.status] || o.status)}</span>
         ／ 最終確認 ${esc(formatMonth(o.last_confirmed))}
-        ${o.affiliation === "全言連" ? "／ 全言連に加盟" : ""}
-         ${o.affiliation === "うぃーすたPJT" ? "／ うぃーすたプロジェクト" : ""}
+        ${affiliation ? "／ " + esc(affiliation) : ""}
       </p>
     </li>`;
 }
