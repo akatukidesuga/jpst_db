@@ -118,6 +118,21 @@
             "status": "active", 
              "last_confirmed": "2026-04"
         },
+
+      {
+            "id": "org-tym-001",
+            "name": "富山言友会",
+            "region_level1": "中部",
+            "region_level2": "富山県",
+            "region_level3": ["富山市","南砺市","射水市","高岡市","魚津市","氷見市"],
+             "affiliation": "全言連",
+            "url": "https://toyama-gyk.amebaownd.com/",
+            "twitter": "https://x.com/toyama_genyukai",
+            "note": "2017年発足、富山市のCiC（富山市新富町1丁目・JR富山・電鉄富山駅付近） 3階を拠点に、第二日曜日に例会を開催。",
+            "tags": ["成人", "定例会"],
+            "status": "active", 
+             "last_confirmed": "2026-11"
+        },
           {
             "id": "org-fuk-001",
             "name": "福井言友会",
