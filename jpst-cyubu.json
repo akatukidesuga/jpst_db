@@ -10,7 +10,7 @@
             "url": "https://nagoya-gyk.jimdofree.com/",
             "twitter": "https://x.com/nagoyagyk",
             "instagram": "https://www.instagram.com/nagoya_gyk/",
-            "note": "1969年代より活動している言友会所属団体。メディア協力等の実績あり。年一回、20代までを対象とする吃音ワークショップforユース (吃ユース)を開催している。また、Twitter（X）のスペース機能を生かしたオンライン配信も行っている。",
+            "note": "1969年より活動している東海エリアの言友会。メディア協力等の実績あり。年一回、20代までを対象とする吃音ワークショップforユース (吃ユース)を開催している。また、定期的にTwitter（X）のスペース機能を生かしたオンライン配信も行っている。",
             "tags": ["成人", "定例会","若者","吃音改善"],
             "status": "active", 
              "last_confirmed": "2026-11"
@@ -24,7 +24,7 @@
              "affiliation": "独立",
             "url": "https://www.domo-work.com/",
             "twitter": "https://x.com/domo_work",
-            "note": "吃音のある方の就労支援を行なうNPO法人。就労で悩む吃音者に対する個別支援、イベント開催、情報発信などを通して、吃音のある方のQOL(生活の質)の向上を目指している。",
+            "note": "東海エリアを中心に吃音のある方の就労支援を行なうNPO法人。就労で悩む吃音者に対する個別支援、イベント開催、情報発信などを通して、吃音のある方のQOL(生活の質)の向上を目指している。",
             "tags": ["成人", "若者","就職支援"],
             "status": "active", 
              "last_confirmed": "2026-04"
@@ -40,7 +40,7 @@
             "url": "https://toyohashi-genyukai2.jimdofree.com/",
             "twitter": "https://x.com/toyogenyukai",
             "instagram": "https://www.instagram.com/toyohashi.kituon/",
-            "note": "毎月第三日曜日にアイトピア豊橋にて例会を開催。申し込みはWebサイトよりLINEオープンチャットへ連絡。",
+            "note": "毎月第三日曜日にあいトピア豊橋（豊橋市前畑）にて例会を開催。申し込みはWebサイトよりLINEオープンチャットへ連絡。",
             "tags": ["成人", "若者","親子","定例会"],
             "status": "active", 
              "last_confirmed": "2026-11"
@@ -170,10 +170,10 @@
             "region_level3": ["甲府市","龍王市","南アルプス市","富士吉田市","山梨市"],
              "affiliation": "全言連",
             "url": "https://yamanashi-kotoba.jimdofree.com/",
-            "twitter": "",
+            "twitter": "https://x.com/wsicxipTfMyipRs",
             "note": "2019年4月に発足した吃音者のセルフヘルプグループ、2023年頃より活動停止状態",
             "tags": ["成人", "定例会"],
-            "status": "active", 
+            "status": "inactive", 
              "last_confirmed": "2026-09"
         },
 
